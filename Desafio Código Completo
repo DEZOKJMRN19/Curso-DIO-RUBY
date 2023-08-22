@@ -1,0 +1,27 @@
+#pedir ao usuário o nome dele
+
+ print "Digite seu Nome: "
+
+ #permitir que o usuário coloque o nome dele
+
+ nome = gets.chomp
+ 
+ #pedir o sobrenome ao usuário
+
+ print "Digite seu Sobrenome: "
+
+ #permitir que o usuário coloqueo o sobrenome dele
+
+ sobrenome = gets.chomp
+
+ #pedir que o usuário coloque a idade dele
+
+ print "Coloque agora sua Idade: "
+
+ #permitir que o usuário coloque a idade dele
+
+ idade = gets.chomp
+
+ # retornar nome, sobrenome e idade na mesma linha
+
+ puts "Olá #{nome} #{sobrenome}, sua Idade é #{idade}"
